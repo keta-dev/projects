@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="inner-container">
+        <h1 class="text-one">Weather Application</h1>
+        <section class="banner">
+          <form action="" id="form">
+            <input type="text" placeholder="Search city..." id="search" />
+            <button type="submit">Submit</button>
+          </form>
+          <!-- error message -->
+          <div class="error-box">
+            <span class="dot"></span>
+            <span class="error">Please enter a valid city</span>
+          </div>
+        </section>
+
+        <!-- card details -->
+        <section class="card-container">
+          <div class="card">
+            <ul class="cities"></ul>
+          </div>
+        </section>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

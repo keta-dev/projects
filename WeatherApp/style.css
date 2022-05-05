@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #c4c4c4;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  width: 776px;
+  height: 541px;
+  margin: 120px auto;
+}
+
+.inner-container {
+  padding: 1.7em;
+}
+
+/* header text styling */
+.text-one {
+  margin: 20px 0 15px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+/* button styling */
+button,
+#search {
+  padding: 1.2em;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #20d23c;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 0 7px 7px 0;
+}
+
+#search {
+  background-color: #c4c4c4;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+/* dot styling */
+.error-box {
+  display: none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: red;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+}
+
+/* card styling */
+.card-container {
+  margin-top: 30px;
+}
+
+.card-container .city-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-container .cities {
+  display: grid;
+  grid-gap: 32px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-container .city {
+  position: relative;
+  padding: 40px;
+  border-radius: 20px;
+  background: #c4c4c4;
+} 
+
+ul {
+  list-style: none;
+}
+
+.card-container figcaption {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.shower-text {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-container .temp {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--text_dark);
+}
